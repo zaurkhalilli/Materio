@@ -5,6 +5,7 @@ import Homeproject from '../../Components/HomeProject/Homeproject';
 import Homeslider from '../../Components/Homeslider/Homeslider';
 import Homeswiper from '../../Components/HomeSwiper/Homeswiper';
 import Homemarks from '../../Components/HomeMarks/Homemarks';
+import Homesupport from '../../Components/HomeSupport/Homesupport';
 const Home = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const Home = () => {
       <Homeslider/>
       <Homeswiper/>
       <Homemarks/>
+      <Homesupport/>
     </div>
   )
 }
