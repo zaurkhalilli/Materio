@@ -6,6 +6,7 @@ import Homeslider from '../../Components/Homeslider/Homeslider';
 import Homeswiper from '../../Components/HomeSwiper/Homeswiper';
 import Homemarks from '../../Components/HomeMarks/Homemarks';
 import Homesupport from '../../Components/HomeSupport/Homesupport';
+import Homepricing from '../../Components/HomePricing/Homepricing';
 const Home = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const Home = () => {
       <Homeswiper/>
       <Homemarks/>
       <Homesupport/>
+      <Homepricing/>
     </div>
   )
 }
