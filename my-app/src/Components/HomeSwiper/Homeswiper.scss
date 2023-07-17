@@ -1,0 +1,34 @@
+.swiper-wrapper{
+    background-color: #f4f5fa !important;
+    padding-bottom: 50px;
+}
+.swiper1{
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+    p{
+        padding-top: 20px;
+    }
+    h5{
+        padding-top: 25px;
+    }
+    img{
+        width: 70%;
+        padding-top: 10px;
+    }
+}
+.swiper-pagination{
+    background-color: #f4f5fa;
+    padding-bottom: 20px;
+}
+.swiper-pagination-bullet-active{
+    padding: 5px;
+}
+.swiper-pagination-bullet{
+    padding: 5px;
+}
+.marks{
+    padding-top: 100px;
+}
