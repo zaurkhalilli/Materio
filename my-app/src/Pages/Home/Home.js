@@ -8,6 +8,7 @@ import Homemarks from '../../Components/HomeMarks/Homemarks';
 import Homesupport from '../../Components/HomeSupport/Homesupport';
 import Homepricing from '../../Components/HomePricing/Homepricing';
 import Homeicons from '../../Components/HomeIcons/Homeicons';
+import Homequestion from '../../Components/HomeQuestions/Homequestion';
 const Home = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const Home = () => {
       <Homesupport/>
       <Homepricing/>
       <Homeicons/>
+      <Homequestion/>
     </div>
   )
 }

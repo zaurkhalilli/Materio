@@ -14,7 +14,7 @@ const Navbar = () => {
              </div>
             </div>
             <div className="col-xl-7">
-                <div className="features">
+                <div className="featuresss">
                 <a href="">Home</a>
                 <a href="">Features</a>
                 <a href="">Team</a>
