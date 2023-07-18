@@ -1,6 +1,7 @@
 .price{
     background-color: #f4f5fa ;
     margin-top: 150px;
+    padding-bottom: 100px;
     .pricetxt{
         padding-top: 100px;
         display: flex;
@@ -62,6 +63,7 @@
             }
         }
         .listbutton{
+            margin-bottom: 40px;
             padding-top: 25px;
             align-items: center;
             text-align: center;
