@@ -1,6 +1,55 @@
 .navbar{
     background-image: url("https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/front-pages/backgrounds/hero-bg.png");
     .container{
+        .dropbtn {
+            background-color: white;
+            text-align: center;
+            margin-top: -1px;
+            color: #615c66;
+            font-size: 16px;
+            border: none;
+            font-weight: 640;
+            font-size: 1.075rem;
+          }
+          
+          .dropdown {
+            img{
+                object-fit: cover;
+                width: 270px;
+                height: 500px;
+            }
+            position: relative;
+            display: inline-block;
+          }
+          
+          .dropdown-content {
+            padding-top: 30px;
+            display: none;
+            margin-left: -400px;
+            margin-top: 30px;
+            width: 900px;
+            height: 600px;
+            position: absolute;
+            background-color: #fff;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+          .dropdown-content h6{
+            font-size: 1.5rem;
+          }
+          
+          .dropdown-content li {
+            color: black;
+            font-weight: 500;
+            padding: 5px 5px;
+            display: block;
+          }
+          
+          .dropdown-content a:hover {background-color: #ddd;}
+          
+          .dropdown:hover .dropdown-content {display: block;}
+          
+          .dropdown:hover .dropbtn {color: #9055fd;}
         background-color: white;
         margin-top: -10px;
         width: 80%;
@@ -25,6 +74,11 @@
             display: flex;
             margin-top: 20px;
             gap: 25px;
+            .featuresa{
+                a{
+                    color: #9055fd;
+                }
+            }
             a{
                 text-decoration: none;
                 font-weight: 640;
