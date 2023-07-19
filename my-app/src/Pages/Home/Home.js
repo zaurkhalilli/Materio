@@ -9,6 +9,7 @@ import Homesupport from '../../Components/HomeSupport/Homesupport';
 import Homepricing from '../../Components/HomePricing/Homepricing';
 import Homeicons from '../../Components/HomeIcons/Homeicons';
 import Homequestion from '../../Components/HomeQuestions/Homequestion';
+import Homeready from '../../Components/HomeReady/Homeready';
 const Home = () => {
   return (
     <div>
@@ -21,6 +22,7 @@ const Home = () => {
       <Homepricing/>
       <Homeicons/>
       <Homequestion/>
+      <Homeready/>
     </div>
   )
 }

@@ -1,0 +1,28 @@
+.ready{
+    border: 1px solid #e7e7e8;
+    background-size: cover  ;
+    background-image: url("https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/front-pages/backgrounds/cta-bg.png");
+    img{
+        padding-top: 40px;
+        width: 100%;
+    }
+    h4{
+        color: #9055fd;
+        font-weight: 700;
+        font-size: 2.3rem;
+        padding-top: 100px;
+    }
+    p{
+        color: #646466;
+        padding-bottom: 10px;
+    }
+    button{
+    color: #fff;
+    font-weight: 650;
+    background-color: #9055fd;
+    border-color: #9055fd;
+    padding: 11px;
+    border-radius: 6px;
+    width: 250px;
+    }
+}
