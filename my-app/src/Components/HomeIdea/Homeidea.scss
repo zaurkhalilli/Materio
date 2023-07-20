@@ -1,0 +1,106 @@
+.idea{
+    background-color: #f4f5fa;
+    padding-top: 100px;
+    .topidea{
+        text-align: center;
+        span{
+            padding-left: 5px;
+            font-size: 1.1rem;
+            font-weight: 640;
+        }
+        h5{
+            padding-top: 15px;
+            font-weight: 640;
+            font-size: 1.7rem;
+        }
+        h6{
+            color: #706d74;
+        }
+    }
+    .container{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        .col-xl-5{
+            height: 450px;
+            p{
+                margin-left: 15px;
+                padding-top: 15px;
+                font-weight: 640;
+                font-size: 1.2rem;
+                color: white;
+            }
+            h5{
+                color: white;
+                font-size: 1.5rem;
+                margin-left: 15px;
+                max-width: 400px;
+            }
+            span{
+                color: white;
+                font-weight: 640;
+                font-size: 1.2rem;
+            }
+            border-radius: 8px;
+            img{
+                margin-left: 15px;
+                width: 90%;
+            }
+            background-color: #9055fd ;
+        }
+        .col-xl-6{
+            button{
+                width: 180px;
+                border: none;
+                letter-spacing: 2px;
+                border-radius: 5px;
+                padding: 9px;
+                font-weight: 640;
+                color: #fff;
+                background-color: #9055fd;
+                border-color: #9055fd;
+                box-shadow: 0px 1px 5px 0px rgba(58,53,65,.12);
+            }
+            border: 1px solid rgba(209, 208, 208, 0.507);
+            margin-left: 30px;
+            background-color: white;
+            border-radius: 8px;
+            h5{
+                padding-top: 15px;
+                padding-bottom: 1rem;
+                font-size: 1.55rem;
+                font-weight: 500;
+                line-height: 1.1;
+                color: #544f5a;
+            }
+         .bottomi{
+            margin-top: 20px;
+            padding-bottom: 10px;
+            input{
+                position: relative;
+                width: 100%;
+                padding: 110px;
+                border-radius: 8px;
+                text-align: start;
+                text-align: left;
+                border: 1px solid #d4d3d5;
+                outline: none;
+            }
+         
+          
+         }
+            .inputs{
+                display: flex;
+                justify-content: space-between;
+                input{
+                    border: 1px solid #d4d3d5;
+                    width: 300px;
+                    padding: 13px;
+                    border-radius: 8px;
+                    outline: none;
+                }
+            }
+            
+            
+        }
+    }
+}

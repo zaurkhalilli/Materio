@@ -12,6 +12,7 @@ import Homequestion from '../../Components/HomeQuestions/Homequestion';
 import Homeready from '../../Components/HomeReady/Homeready';
 import Navbar from '../../Layout/Navbar/Navbar';
 import Layout from '../../Layout/Layout';
+import Homeidea from '../../Components/HomeIdea/Homeidea';
 const Home = () => {
   return (
     <div>
@@ -26,6 +27,7 @@ const Home = () => {
       <Homeicons/>
       <Homequestion/>
       <Homeready/>
+      <Homeidea/>
       </Layout>     
  
     </div>
