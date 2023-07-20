@@ -4,6 +4,7 @@ import {HiOutlineUser} from "react-icons/hi"
 import {IoIosArrowDown} from "react-icons/io"
 import {GrSun} from "react-icons/gr"
 import {CgMenuGridR} from "react-icons/cg"
+import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <nav className="navbar">
@@ -30,7 +31,7 @@ const Navbar = () => {
                     <div className="row">
                       <div className="col-xl-3">
                         <h6> <CgMenuGridR/> Other</h6>
-                        <li>Pricing</li>
+                        <Link to="/pricing"><li>Pricing</li></Link>
                         <li>Payment</li>
                         <li>Checkout</li>
                         <li>Help Center</li>
@@ -70,7 +71,7 @@ const Navbar = () => {
             </div>
             <div className="col-xl-3">
                 <div className="button">
-                 <GrSun size={25} />  <button><HiOutlineUser/> LOGIN/REGISTER</button>
+                <Link to="/login">  <GrSun size={25} />  <button> <Link to="/login"></Link> <HiOutlineUser/> LOGIN/REGISTER</button></Link>
                 </div>
             </div>
         </div>

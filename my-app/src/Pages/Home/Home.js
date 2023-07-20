@@ -10,10 +10,13 @@ import Homepricing from '../../Components/HomePricing/Homepricing';
 import Homeicons from '../../Components/HomeIcons/Homeicons';
 import Homequestion from '../../Components/HomeQuestions/Homequestion';
 import Homeready from '../../Components/HomeReady/Homeready';
+import Navbar from '../../Layout/Navbar/Navbar';
+import Layout from '../../Layout/Layout';
 const Home = () => {
   return (
     <div>
-      <Homeapplication/>
+    <Layout>
+    <Homeapplication/>
       <Homeproject/>
       <Homeslider/>
       <Homeswiper/>
@@ -23,6 +26,8 @@ const Home = () => {
       <Homeicons/>
       <Homequestion/>
       <Homeready/>
+      </Layout>     
+ 
     </div>
   )
 }
