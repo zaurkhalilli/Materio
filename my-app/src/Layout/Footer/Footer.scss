@@ -1,4 +1,12 @@
 .footer{
-    background-image: #241d31 url("https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/front-pages/backgrounds/footer-bg.png");
-    background-size: cover; 
+    margin-top: -20px;
+    padding-top: 30px;
+    background: #241d31 url("https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/front-pages/backgrounds/footer-bg.png") center no-repeat;
+    background-size: cover;
+    h4{
+        color: #d0ced2;
+    }
+    p{
+        color: #8a8590;
+    }
 }
