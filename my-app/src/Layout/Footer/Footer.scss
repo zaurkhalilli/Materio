@@ -34,5 +34,12 @@
     }
     .liststyle{
         display: flex;
+        ul{
+            color: #eae9eb;
+        }
+        li{
+            list-style: none;
+            
+        }
     }
 }

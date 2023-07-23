@@ -21,11 +21,11 @@ const Footer = () => {
                   <li><a href="">Dark Layout</a></li>
                 </ul>
                 <ul>Pages
-                  <li>Pricing</li>
-                  <li>Payment</li>
-                  <li>Checkout</li>
-                  <li>Help Center</li>
-                  <li>Login/Register</li>
+                  <li><a href="">Pricing</a></li>
+                  <li><a href="">Payment</a></li>
+                  <li><a href="">Checkout</a></li>
+                  <li><a href="">Help Center</a></li>
+                  <li><a href="">Login/Register</a></li>
                 </ul>
               </div>
             </div>
