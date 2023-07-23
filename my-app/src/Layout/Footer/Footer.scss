@@ -35,11 +35,18 @@
     .liststyle{
         display: flex;
         ul{
-            color: #eae9eb;
+            color: #d6d5d8;
+            font-size: 1.4rem;
         }
         li{
+            font-size: 1.1rem;
+            font-weight: 500;
             list-style: none;
-            
+            padding-top: 10px;
+            a{
+                color: #d6d5d8;
+                text-decoration: none;
+            }
         }
     }
 }
