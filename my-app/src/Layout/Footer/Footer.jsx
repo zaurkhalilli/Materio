@@ -4,6 +4,7 @@ import {AiFillHeart} from "react-icons/ai"
 import {AiFillGithub} from "react-icons/ai"
 import {BsFacebook} from "react-icons/bs"
 import {FaTwitter} from "react-icons/fa"
+import {FiInstagram} from "react-icons/fi"
 const Footer = () => {
   return (
     <div className='footer'>
@@ -49,9 +50,17 @@ const Footer = () => {
             <p>© 2023 , Made with <AiFillHeart color='red' size={20}/> by ThemeSelection</p>
             </div>
             <div className="col-xl-6">
-              <AiFillGithub/>
-              <BsFacebook/>
-              <FaTwitter/>
+             <div className="github">
+             <AiFillGithub color='white' size={22}/>
+             </div>
+             <div className="facebook">
+             <BsFacebook color='white' size={20}/>
+             </div>
+            <div className="twitter">
+            <FaTwitter color='white' size={22}/>
+            </div>
+             <div className="instagram"> 
+             <FiInstagram color='white' size={22}/></div>
             </div>
           </div>
          </div>
