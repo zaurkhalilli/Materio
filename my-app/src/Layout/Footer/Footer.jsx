@@ -51,16 +51,17 @@ const Footer = () => {
             </div>
             <div className="col-xl-6">
              <div className="github">
-             <AiFillGithub color='white' size={22}/>
+           <a href="">  <AiFillGithub color='white' size={22}/></a>
              </div>
              <div className="facebook">
-             <BsFacebook color='white' size={20}/>
+            <a href=""> <BsFacebook color='white' size={20}/></a>
              </div>
             <div className="twitter">
-            <FaTwitter color='white' size={22}/>
+            <a href=""><FaTwitter color='white' size={22}/></a>
             </div>
              <div className="instagram"> 
-             <FiInstagram color='white' size={22}/></div>
+            <a href="">  <FiInstagram color='white' size={22}/></a>
+             </div>
             </div>
           </div>
          </div>

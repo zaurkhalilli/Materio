@@ -11,17 +11,22 @@
             max-width: 700px;
         }
         .col-xl-6{
+            
             display: flex;
             .github{
+                padding-top: 15px;
                 padding-left: 200px;
             }
             .facebook{
+                padding-top: 15px;
                 padding-left: 40px;
             }
             .twitter{
+                padding-top: 15px;
                 padding-left: 40px;
             }
             .instagram{
+                padding-top: 15px;
                 padding-left: 40px;
             }
         }
@@ -29,6 +34,7 @@
     .rightside{
         h5{
             color:#d0ced2;
+            font-weight: 640;
         }
         img{
             padding-top: 25px;
@@ -67,13 +73,14 @@
         display: flex;
         ul{
             color: #d6d5d8;
+            font-weight: 640;
             font-size: 1.4rem;
         }
         li{
-            font-size: 1.1rem;
+            font-size: 1rem;
             font-weight: 500;
             list-style: none;
-            padding-top: 10px;
+            padding-top: 25px;
             a{
                 color: #d6d5d8;
                 text-decoration: none;
