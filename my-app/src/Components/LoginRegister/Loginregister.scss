@@ -1,6 +1,9 @@
 .login{
-    background-image: url("https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/illustrations/auth-cover-mask-light.png");
+   
   .leftimg{
+    background-image: url("https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/illustrations/auth-cover-mask-light.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     img{
        position: relative;
         width: 100%;
@@ -9,8 +12,8 @@
     .flower{
         img{
             position: absolute;
-            bottom: 3rem;
-            left: 3rem;
+            bottom: 1rem;
+            left: 7rem;
         }
     }
     h3{
@@ -29,7 +32,7 @@
             padding-top: 20px;
         }
         input{
-            width: 90%;
+            width: 100%;
             padding: 15px;
             margin-left: 20px;
             display: block;
@@ -48,6 +51,9 @@
             font-weight: 500;
             line-height: 1.1;
             color: #544f5a;
+        }
+        p{
+            color: #89868d;
         }
     }
    }

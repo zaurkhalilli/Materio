@@ -1,12 +1,13 @@
 import React from 'react'
 import styled from "../LoginRegister/Loginregister.scss"
+import { Link } from 'react-router-dom'
 const Loginregister = () => {
   return (
     <div className='login'>
         <div className="container">
             <div className="row">
                 <div className="col-xl-8">
-                <h3>MATERIO</h3>
+                <Link to="/"  ><h3>MATERIO</h3></Link>
                <div className="leftimg">
                <img src="https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/illustrations/auth-cover-login-illustration-light.png" alt="" />
                </div>
