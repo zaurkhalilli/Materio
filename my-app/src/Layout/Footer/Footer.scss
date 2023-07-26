@@ -1,8 +1,23 @@
 .footer{
-    margin-top: -20px;
     padding-top: 30px;
     background: #241d31 url("https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/front-pages/backgrounds/footer-bg.png") center no-repeat;
     background-size: cover;
+    .bottomfooter{
+        background-color: #211b2c;
+        padding-bottom: 10px;
+        p{
+            font-size: 1.2rem;
+            max-width: 700px;
+        }
+    }
+    .rightside{
+        h5{
+            color:#d0ced2;
+        }
+        img{
+            padding-top: 25px;
+        }
+    }
     h4{
         color: #d0ced2;
         font-weight: 650;

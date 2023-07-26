@@ -1,5 +1,9 @@
 import React from 'react'
 import styled from "../Footer/Footer.scss"
+import {AiFillHeart} from "react-icons/ai"
+import {AiFillGithub} from "react-icons/ai"
+import {BsFacebook} from "react-icons/bs"
+import {FaTwitter} from "react-icons/fa"
 const Footer = () => {
   return (
     <div className='footer'>
@@ -29,8 +33,28 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-xl-4"></div>
+            <div className="col-xl-4">
+             <div className="rightside">
+             <h5>Download our app</h5>
+              <img src="https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/front-pages/landing-page/apple-icon.png" alt="" />
+              <img src="https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/front-pages/landing-page/google-play-icon.png" alt="" />
+             </div>
+               </div>
           </div>
+        </div>
+        <div className="bottomfooter">
+         <div className="container">
+          <div className="row">
+            <div className="col-xl-6">
+            <p>© 2023 , Made with <AiFillHeart color='red' size={20}/> by ThemeSelection</p>
+            </div>
+            <div className="col-xl-6">
+              <AiFillGithub/>
+              <BsFacebook/>
+              <FaTwitter/>
+            </div>
+          </div>
+         </div>
         </div>
     </div>
   )
