@@ -45,16 +45,16 @@ const Loginregister = () => {
                 </div>
                 <div className="loginmarks">
                <div className="facebook">
-               <BsFacebook color='darkblue' size={28}/>
+              <a href=""> <BsFacebook color='darkblue' size={28}/></a>
                </div>
                <div className="twitter">
-               <FaTwitter color='blue' size={30}/>
+             <a href="">  <FaTwitter color='blue' size={30}/></a>
                </div>
                <div className="git">
-               <BsGithub size={30}/>
+              <a href=""> <BsGithub size={30}/></a>
                </div>
                <div className="google">
-               <GrGoogle size={30} color='red'/>
+              <a href=""> <GrGoogle size={30} color='red'/></a>
                </div>
                 </div>
                 </div>
