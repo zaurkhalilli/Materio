@@ -1,5 +1,46 @@
 .login{
+    a{
+        text-decoration: none;
+    }
    
+    
+
+    .loginbtn{
+        padding-top: 25px;
+        padding-left: 20px;
+       .btnspan{
+        margin-top: 20px;
+        font-size: 1.1rem;
+        padding-left: 50px;
+        span{
+           color: #9c7c76;
+        }
+        a{
+            color: #9055fd;
+            font-weight: 600;
+        }
+  
+       }
+        button{
+            color: #fff;
+            border-radius: 7px;
+            width: 420px;
+            font-weight: 640;
+            font-size: 1.1rem;
+            padding: 10px;
+            background-color: #9055fd;
+            border-color: #9055fd;
+            cursor: pointer;
+        }
+        .btnhr{
+            display: flex;
+            hr{
+                padding-left: 10px;
+                width: 50%;
+            }
+        }
+    }
+
   .leftimg{
     background-image: url("https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/illustrations/auth-cover-mask-light.png");
     background-size: cover;
@@ -30,7 +71,9 @@
         }
         .inputpass{
             padding-top: 20px;
+          
         }
+       
         input{
             width: 100%;
             padding: 15px;
@@ -54,6 +97,29 @@
         }
         p{
             color: #89868d;
+        }
+    }
+    .newpass{
+        padding-top: 20px;
+        a{
+            color: #9055fd;
+            font-size: 1.1rem;
+            font-weight: 600;
+            padding-left: 20px;
+        }
+    }
+    .loginmarks{
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        .twitter{
+            padding-left: 30px;
+        }
+        .git{
+            padding-left: 30px;
+        }
+        .google{
+            padding-left: 30px;
         }
     }
    }
