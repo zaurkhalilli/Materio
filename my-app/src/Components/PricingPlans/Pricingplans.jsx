@@ -20,6 +20,7 @@ const Pricingplans = () => {
             <li>Unlimited fields</li>
             <li>Basic form creation tools</li>
             <li>Up to 2 subdomains</li>
+            <div className="leftbtn"></div>
           </div>
           <div className="col-xl-4">
             <img src="https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/illustrations/pricing-standard.png" alt="" />
