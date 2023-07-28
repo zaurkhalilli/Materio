@@ -1,0 +1,58 @@
+.pricing{
+    background-image: url("https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/front-pages/backgrounds/hero-bg.png");
+    padding-bottom: 20px;
+    .pricingplans{
+        padding-top: 40px;
+        text-align: center;
+        h2{
+            font-weight: 500;
+            line-height: 1.1;
+            color: #544f5a;
+        }
+        h6{
+            margin: 0 auto;
+            color: #b4b2b7;
+            max-width: 550px;
+        }
+    }
+    .container{
+        
+        .col-xl-4{
+            background-color: #fff;
+            border-radius: 8px;
+            border: 1px solid rgb(182, 178, 178);
+            img{
+                padding-top: 30px;
+            }
+            h5{
+                color: #544f5a;
+                font-size: 2rem;
+                padding-top: 20px;
+            }
+            p{
+                color: #89868d;
+                font-size: 1.1rem;
+            }
+            label{
+            color: #89868d;
+            }
+            span{
+                font-size: 3rem;
+                font-weight: 640;
+                color: #9055fd;
+            }
+            sup{
+                color: #89868d;
+                font-size: 1.5rem;
+            }
+            li{
+                color: #89868d;
+                list-style: circle;
+                text-align: left;
+                font-size: 1.2rem;
+            }
+        }
+        padding-top: 100px;
+        text-align: center;
+    }
+}
