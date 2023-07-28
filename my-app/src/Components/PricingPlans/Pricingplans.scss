@@ -52,6 +52,20 @@
                 text-align: left;
                 font-size: 1.2rem;
             }
+            .leftbtn{
+                padding-bottom: 30px;
+                padding-top: 30px;
+                button{
+                    width: 90%;
+                    padding: 7px;
+                    font-weight: 640;
+                    font-size: 1.2rem;
+                    color: #56ca00;
+                    border: 1px solid #abe580 ;
+                    background: rgba(255, 255, 255, 0);
+                    border-radius: 7px;
+                }
+            }
         }
         padding-top: 100px;
         text-align: center;

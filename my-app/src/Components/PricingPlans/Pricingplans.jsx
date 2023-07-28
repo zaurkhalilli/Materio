@@ -20,13 +20,37 @@ const Pricingplans = () => {
             <li>Unlimited fields</li>
             <li>Basic form creation tools</li>
             <li>Up to 2 subdomains</li>
-            <div className="leftbtn"></div>
+            <div className="leftbtn">
+              <button>YOUR CURRENT PLAN</button>
+            </div>
           </div>
           <div className="col-xl-4">
             <img src="https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/illustrations/pricing-standard.png" alt="" />
+            <h5>Basic</h5>
+            <p>A simple start for everyone</p>
+            <sup>$ </sup> <span>0</span> <label>/month</label>
+            <li>100 responses a month</li>
+            <li>Unlimited forms and surveys</li>
+            <li>Unlimited fields</li>
+            <li>Basic form creation tools</li>
+            <li>Up to 2 subdomains</li>
+            <div className="leftbtn">
+              <button>YOUR CURRENT PLAN</button>
+            </div>
           </div>
           <div className="col-xl-4">
             <img src="https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/illustrations/pricing-enterprise.png" alt="" />
+            <h5>Basic</h5>
+            <p>A simple start for everyone</p>
+            <sup>$ </sup> <span>0</span> <label>/month</label>
+            <li>100 responses a month</li>
+            <li>Unlimited forms and surveys</li>
+            <li>Unlimited fields</li>
+            <li>Basic form creation tools</li>
+            <li>Up to 2 subdomains</li>
+            <div className="leftbtn">
+              <button>YOUR CURRENT PLAN</button>
+            </div>
           </div>
         </div>
       </div>
