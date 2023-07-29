@@ -82,6 +82,34 @@
                     border-radius: 7px;
                 }
             }
+            .middlebtn{
+                padding-bottom: 30px;
+                padding-top: 30px;
+                button{
+                    color: #fff;
+                    background-color: #9055fd;
+                    width: 90%;
+                    font-weight: 640;
+                    font-size: 1.2rem;
+                    padding: 7px;
+                    border-radius: 7px;
+                    border: 1px solid #9055fd;
+                }
+            }
+            .rightbtn{
+                padding-bottom: 30px;
+                padding-top: 30px;
+                button{
+                    color: #9055fd;
+                    width: 90%;
+                    padding: 7px;
+                    font-weight: 640;
+                    font-size: 1.2rem;
+                    border-radius: 7px;
+                    border: 1px solid #c8aafe;
+                    background: rgba(0,0,0,0);  
+                }
+            }
         }
         padding-top: 100px;
         text-align: center;
