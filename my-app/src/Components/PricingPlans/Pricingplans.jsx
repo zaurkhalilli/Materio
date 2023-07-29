@@ -11,7 +11,9 @@ const Pricingplans = () => {
       <div className="container">
         <div className="row">
           <div className="col-xl-4">
+            <div className="img1">
             <img src="https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/illustrations/pricing-basic.png" alt="" />
+            </div>
             <h5>Basic</h5>
             <p>A simple start for everyone</p>
             <sup>$ </sup> <span>0</span> <label>/month</label>
