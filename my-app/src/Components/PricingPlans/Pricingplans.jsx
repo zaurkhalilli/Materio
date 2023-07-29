@@ -32,14 +32,14 @@ const Pricingplans = () => {
             </div>
             <h5>Basic</h5>
             <p>A simple start for everyone</p>
-            <sup>$ </sup> <span>0</span> <label>/month</label>
+            <sup>$ </sup> <span>9</span> <label>/month</label>
             <li>100 responses a month</li>
             <li>Unlimited forms and surveys</li>
             <li>Unlimited fields</li>
             <li>Basic form creation tools</li>
             <li>Up to 2 subdomains</li>
-            <div className="leftbtn">
-              <button>YOUR CURRENT PLAN</button>
+            <div className="middlebtn">
+              <button>UPGRADE</button>
             </div>
           </div>
           <div className="col-xl-4">
@@ -54,8 +54,8 @@ const Pricingplans = () => {
             <li>Unlimited fields</li>
             <li>Basic form creation tools</li>
             <li>Up to 2 subdomains</li>
-            <div className="leftbtn">
-              <button>YOUR CURRENT PLAN</button>
+            <div className="rightbtn">
+              <button>UPGRADE</button>
             </div>
           </div>
         </div>
