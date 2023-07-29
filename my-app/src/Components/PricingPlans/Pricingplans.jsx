@@ -27,7 +27,9 @@ const Pricingplans = () => {
             </div>
           </div>
           <div className="col-xl-4">
+            <div className="img2">
             <img src="https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/illustrations/pricing-standard.png" alt="" />
+            </div>
             <h5>Basic</h5>
             <p>A simple start for everyone</p>
             <sup>$ </sup> <span>0</span> <label>/month</label>
@@ -41,7 +43,9 @@ const Pricingplans = () => {
             </div>
           </div>
           <div className="col-xl-4">
+            <div className="img3">
             <img src="https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/illustrations/pricing-enterprise.png" alt="" />
+            </div>
             <h5>Basic</h5>
             <p>A simple start for everyone</p>
             <sup>$ </sup> <span>0</span> <label>/month</label>
