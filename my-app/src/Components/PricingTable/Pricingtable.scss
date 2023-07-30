@@ -5,7 +5,7 @@
     table{
         margin: 0 auto;
         width: 80%;
-        border-radius: 0.3125rem !important;
+        border-radius: 8px;
         border: 1px solid #e7e7e8;
         span{
             display: flex;
@@ -13,11 +13,17 @@
             font-weight: 500;
             font-size: 0.8rem;
         }
-      
+      td{
+        margin-left: 20px;
+        font-size: 1.1rem;
+        color: #89868d;
+      }
       
     }
-  
-    td:nth-child(1) {
-        background: #dddddd;
+    th:nth-child(4){
+        background: #ebeaea7e;
+    }
+    td:nth-child(4) {
+        background: #ebeaea7e;
       }
 }
