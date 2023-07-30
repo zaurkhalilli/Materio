@@ -1,0 +1,22 @@
+.table{
+    .tabletxt{
+        text-align: center;
+    }
+    table{
+        margin: 0 auto;
+        border-radius: 0.3125rem !important;
+        border: 1px solid #e7e7e8;
+        span{
+            display: flex;
+            color: #b4b2b7;
+            font-weight: 500;
+            font-size: 0.8rem;
+        }
+      
+      
+    }
+  
+    td:nth-child(1) {
+        background: #dddddd;
+      }
+}
