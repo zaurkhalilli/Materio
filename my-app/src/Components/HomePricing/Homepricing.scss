@@ -78,8 +78,8 @@
             }
         }
         img{
-            margin-top: -50px;
-            margin-left: 20px;
+            margin-top: -75px;
+            margin-left: 25px;
         }
         .cont1{
             span{
@@ -88,13 +88,16 @@
                 font-weight: 650;
                 margin-left: 20px;
             }
-            h6{
-                color: #544f5a;
-                margin-top: 30px;
+            .cont1-1{
+                h6{
+                    color: #544f5a;
+                    margin-top: 30px;
+                }
+                p{
+                    font-size: 0.9rem;
+                }
             }
-            p{
-                margin-top: 29px;
-            }
+          
             display: flex;
             flex-direction: row;
             justify-content: space-around;

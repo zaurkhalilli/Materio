@@ -30,8 +30,10 @@ The best plan to fit your needs.</span>
                 <h3>Basic Plan</h3>
                 <div className="cont1">
                 <span>$20</span>
-                <h6>Per month</h6>
+               <div className="cont1-1">
+               <h6>Per month</h6>
                 <p>10% off for yearly subscription</p>
+               </div>
                 </div>
                 <img src="https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/front-pages/icons/smiling-icon.png" alt="" />
                 <div className="list">
@@ -55,8 +57,10 @@ The best plan to fit your needs.</span>
             <h3>Basic Plan</h3>
                 <div className="cont1">
                 <span>$51</span>
-                <h6>Per month</h6>
+               <div className="cont1-1">
+               <h6>Per month</h6>
                 <p>10% off for yearly subscription</p>
+               </div>
                 </div>
                 <img src="https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/front-pages/icons/smiling-icon.png" alt="" />
                 <div className="list">
@@ -78,10 +82,12 @@ The best plan to fit your needs.</span>
             </div>
             <div className="col-xl-3">
             <h3>Basic Plan</h3>
-                <div className="cont1">
+            <div className="cont1">
                 <span>$99</span>
-                <h6>Per month</h6>
+               <div className="cont1-1">
+               <h6>Per month</h6>
                 <p>10% off for yearly subscription</p>
+               </div>
                 </div>
                 <img src="https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/front-pages/icons/smiling-icon.png" alt="" />
                 <div className="list">
