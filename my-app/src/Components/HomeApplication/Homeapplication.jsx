@@ -9,12 +9,14 @@ const Homeapplication = () => {
             The live customiser has everything your marketing need.</p>
             <button>GET EARLY ACCESS</button>
             <br />
-           <div className="img">
+          <div className="applicationimg">
+          <div className="img">
            <img src="https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/front-pages/landing-page/hero-dashboard-light.png" alt="" />
            </div>
            <div className="img2">
             <img src="https://demos.themeselection.com/materio-bootstrap-html-admin-template/assets/img/front-pages/landing-page/hero-elements-light.png" alt="" />
            </div>
+          </div>
         </div>
     </div>
   )
