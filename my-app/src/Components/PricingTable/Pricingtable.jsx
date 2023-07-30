@@ -20,41 +20,49 @@ const Pricingtable = () => {
     <td>14-days free trial</td>
     <td><AiFillCheckCircle size={20} color='purple'/></td>
     <td><AiFillCloseCircle color='gray' size={20}/></td>
+    <td><AiFillCheckCircle size={20} color='purple'/></td>
   </tr>
   <tr>
     <td>No user limit</td>
-    <td>Francisco Chang</td>
+    <td><AiFillCloseCircle color='gray' size={20}/></td>
     <td>Mexico</td>
+    <td><AiFillCheckCircle size={20} color='purple'/></td>
   </tr>
   <tr>
     <td>Product Support</td>
-    <td>Roland Mendel</td>
+    <td><AiFillCloseCircle color='gray' size={20}/></td>
     <td>Austria</td>
+    <td><AiFillCheckCircle size={20} color='purple'/></td>
   </tr>
   <tr>
     <td>Email Support</td>
-    <td>Helen Bennett</td>
+    <td><AiFillCloseCircle color='gray' size={20}/></td>
     <td>UK</td>
+    <td><AiFillCheckCircle size={20} color='purple'/></td>
   </tr>
   <tr>
     <td>Integrations</td>
-    <td>Yoshi Tannamuri</td>
+    <td><AiFillCloseCircle color='gray' size={20}/></td>
     <td>Canada</td>
+    <td><AiFillCheckCircle size={20} color='purple'/></td>
   </tr>
   <tr>
     <td>Removal of Front branding	</td>
-    <td>Giovanni Rovelli</td>
+    <td><AiFillCloseCircle color='gray' size={20}/></td>
     <td>Italy</td>
+    <td><AiFillCheckCircle size={20} color='purple'/></td>
   </tr>
   <tr>
     <td>Active maintenance & support</td>
-    <td>Giovanni Rovelli</td>
+    <td><AiFillCloseCircle color='gray' size={20}/></td>
     <td>Italy</td>
+    <td><AiFillCheckCircle size={20} color='purple'/></td>
   </tr>
   <tr>
     <td>Data storage for 365 days</td>
-    <td>Giovanni Rovelli</td>
+    <td><AiFillCloseCircle color='gray' size={20}/></td>
     <td>Italy</td>
+    <td><AiFillCheckCircle size={20} color='purple'/></td>
   </tr>
   
 </table>
