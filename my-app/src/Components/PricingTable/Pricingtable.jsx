@@ -6,7 +6,7 @@ const Pricingtable = () => {
   return (
     <div className='table'> 
     <div className="tabletxt">
-    <h3>Pick a plan that works best for you</h3>
+    <h2>Pick a plan that works best for you</h2>
     <p>Stay cool, we have a 48-hour money back guarantee!</p>
     </div>
       <table>
