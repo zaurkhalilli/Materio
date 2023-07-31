@@ -64,6 +64,12 @@ const Pricingtable = () => {
     <td><AiFillCloseCircle color='gray' size={20}/></td>
     <td><AiFillCheckCircle size={20} color='purple'/></td>
   </tr>
+  <tr>
+    <td></td>
+    <td><button>CHOOSE PLAN</button></td>
+    <td><button>CHOOSE PLAN</button></td>
+    <td><button>CHOOSE PLAN</button></td>
+  </tr>
   
 </table>
     </div>
