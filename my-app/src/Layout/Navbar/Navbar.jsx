@@ -18,7 +18,7 @@ const Navbar = () => {
             <div className="col-xl-7">
                 <div className="featuresss">
                 <div className="featuresa">
-                <a href="">Home</a>
+                <Link to="/"> <p>Home</p> </Link>
                 </div>
                 <a href="">Features</a>
                 <a href="">Team</a>
